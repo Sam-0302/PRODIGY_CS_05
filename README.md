@@ -15,3 +15,39 @@ The **Network Packet Analyzer** is a Python-based tool designed to capture and a
 
 - Python 3.x
 - `scapy` library
+
+- 
+## Installation
+
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/Sam-0302/PRODIGY_CS_05.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd PRODIGY_CS_05
+    ```
+
+3. Install the required Python dependencies:
+    ```bash
+    pip install scapy
+    ```
+
+## Usage
+
+1. Run the script using Python with administrative privileges:
+    ```bash
+    sudo python packet_analyzer.py
+    ```
+
+2. The tool will capture packets and display relevant details such as IP addresses, protocols, and payload data in real-time.
+
+3. Press `CTRL+C` to stop the packet capture.
+
+> **Note**: Administrative or root privileges may be required depending on your system.
+
+## Ethical Use
+
+This tool is intended for educational purposes only. Ensure that you have the necessary permissions to monitor network traffic on any network you use this tool on. Unauthorized packet sniffing is illegal and unethical.
+
